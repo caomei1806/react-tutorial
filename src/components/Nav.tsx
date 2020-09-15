@@ -15,6 +15,8 @@ export const Nav: React.FC = () => {
       <Link to="/add/1/2">Add</Link>
       <br />
       <Link to="/add?a=1&b=9">Add 2</Link>
+      <br />
+      <Link to="/photos">Photos</Link>
     </div>
   );
 };
